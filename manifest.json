@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Read Aloud",
+  "version": "1.0",
+  "description": "A Chrome extension that reads selected text aloud.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tts"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
